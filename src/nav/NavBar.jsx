@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import './nav.css';
+import logo from '../assets/paul.png'
 
 function NavBar() {
   return (
@@ -11,7 +12,7 @@ function NavBar() {
       <Container className='d-flex justify-content-center bg-gray top-header'>
         <Row>
           <Col className='col-6'>
-            <Navbar.Brand href="#home" className='ms-auto'>Paul Style</Navbar.Brand>
+            <Navbar.Brand href="#home" className='ms-auto'><img src={logo} width={100} height={100}/></Navbar.Brand>
           </Col>
         </Row>
       </Container>
