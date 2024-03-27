@@ -2,7 +2,7 @@ function Body()
 {
     return (
         <div className='center'>
-        <p className='center'>
+        <p>
           Paul Style Coming Soon
         </p>
       </div>
