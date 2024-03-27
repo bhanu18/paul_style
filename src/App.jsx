@@ -1,4 +1,6 @@
 import './App.css';
+import Body from './body/body';
+import Footer from './footer/footer';
 import NavBar from './nav/NavBar';
 
 function App() {
@@ -6,11 +8,8 @@ function App() {
   return (
     <>
     <NavBar/>
-      <div className='center'>
-        <p className='center'>
-          Paul Style Coming Soon
-        </p>
-      </div>
+    <Body/>
+    <Footer/>
     </>
   )
 }
