@@ -9,14 +9,14 @@ import logo from '../assets/paul.png'
 function NavBar() {
   return (
     <>
-      <Container className='d-flex justify-content-center bg-gray top-header'>
+      <Container className='d-flex justify-content-center bg-gray top-header p-0'>
         <Row>
           <Col className='col-6'>
-            <Navbar.Brand href="#home" className='ms-auto'><img src={logo} width={100} height={100}/></Navbar.Brand>
+            <Navbar.Brand href="#home" className='ms-auto'><img src={logo} width={200} height={200}/></Navbar.Brand>
           </Col>
         </Row>
       </Container>
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar expand="lg" className="nav-bg p-0">
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className='justify-content-center'>

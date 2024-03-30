@@ -4,3 +4,7 @@
 .top-header{
     padding: 20px;
 }
+a.nav-link {
+    color: white;
+    font-size: 20px;
+}
