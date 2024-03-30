@@ -16,7 +16,7 @@ function NavBar() {
           </Col>
         </Row>
       </Container>
-      <Navbar expand="lg" className="nav-bg p-0">
+      {/* <Navbar expand="lg" className="nav-bg p-0">
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className='justify-content-center'>
@@ -28,7 +28,7 @@ function NavBar() {
             </Nav>
           </Navbar.Collapse>
         </Container>
-      </Navbar>
+      </Navbar> */}
     </>
   );
 }

@@ -10,7 +10,7 @@ function Body() {
       <Container className='d-flex justify-content-center p-5'>
         <Row>
           <Col className=''>
-            <h2>Coming Soon</h2>
+            <h2>Details Coming Soon</h2>
           </Col>
         </Row>
       </Container>
