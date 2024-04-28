@@ -1,19 +1,19 @@
 .center {
   margin: auto;
-  width: 50%;
-  padding: 10px;
+  padding: 20px;
 }
 
 body {
   background-image: url('./assets/paul_bg.png');
 }
 
-#root {
+/* #root {
   margin: 0 auto;
   min-height: 100%;
   position: relative;
-}
+} */
 
-h2{
-  color: #ffff !important;
+
+.image_over{
+  margin-top: -66px !important;
 }
