@@ -1,15 +1,16 @@
-import paul from "../assets/paul_.png";
+import paul from "../assets/paul_resize.png";
 import once_tried from "../assets/once_tried_ever_trust.png";
+import Contact from "./contact";
 
 function Body() {
   return (
     <>
-      <div className="container bg-white">
+      <div className="container bg-white rounded mb-4">
         <div className="row">
-          <div className="col-md-6 d-flex justify-content-center">
+          <div className="col-md-6 col-sm-12 d-flex justify-content-center">
             <img src={once_tried} alt="once tried ever trust" width={280} />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 col-sm-12">
             <div className="box center">
               <p className="lead">Established in 1988, we offer traditional craftsmanship and outstanding workmanship, tailored to perfection.</p>
               <p className="lead">Call us to schedule an appointment, we look forward to meet you
@@ -18,7 +19,7 @@ function Body() {
           </div>
         </div>
         <div className="row">
-          <div className="col-sm-12">
+          <div className="col-sm-12 col-md-6">
             <div className="row">
               <div className="col text-center">
                 <h2>Bespoke</h2>
@@ -40,7 +41,7 @@ function Body() {
             <div className="row">
               <div className="col text-center">
                 <h2>Visiting Plans</h2>
-                <p className="lead">Available for visiting(UK dates coming soon)</p>
+                <p className="lead">Available for visiting (UK dates coming soon)</p>
               </div>
             </div>
             <div className="row">
@@ -51,10 +52,16 @@ function Body() {
             </div>
 
           </div>
-          <div className="col-sm-12 d-flex justify-content-center">
-            <img src={paul} alt="" width={280} className="image_over" />
+          <div className="col-sm-12 col-md-6 d-flex justify-content-center">
+            <div className="img-container">
+              <img src={paul} alt="paul" className="img" />
+            </div>
           </div>
         </div>
+      </div>
+      <div className="container mt-5 py-3 bg-white rounded">
+        <h5>Interested in a suit? Contact Us</h5>
+        <Contact />
       </div>
     </>
   );
