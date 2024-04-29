@@ -40,14 +40,8 @@ function Body() {
             </div>
             <div className="row">
               <div className="col text-center">
-                <h2>Visiting Plans</h2>
-                <p className="lead">Available for visiting (UK dates coming soon)</p>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col text-center">
                 <h2>Appointment & Referrals</h2>
-                <p className="lead">Get appointment Contact through Email</p>
+                <p className="lead">Get appointment Contact through Email: <a href="mailto:mytailorpaul@hotmail.com">mytailorpaul@hotmail.com</a></p>
               </div>
             </div>
 
