@@ -41,7 +41,7 @@ function Body() {
             <div className="row">
               <div className="col text-center">
                 <h2>Appointment & Referrals</h2>
-                <p className="lead">Get appointment Contact through Email: <a href="mailto:mytailorpaul@hotmail.com">mytailorpaul@hotmail.com</a></p>
+                <p className="lead">Get appointment Contact through Email: <a href="mailto:mytailorpaul@hotmail.com">mytailorpaul@hotmail.com</a> or message on Whatsapp </p>
               </div>
             </div>
 
@@ -53,8 +53,8 @@ function Body() {
           </div>
         </div>
       </div>
-      <div className="container mt-5 py-3 bg-white rounded">
-        <h5>Interested in a suit? Contact Us</h5>
+      <div className="container mt-5 py-5 px-4 bg-white rounded">
+        <h5 className="mb-4">Interested in a suit? Contact Us</h5>
         <Contact />
       </div>
     </>
