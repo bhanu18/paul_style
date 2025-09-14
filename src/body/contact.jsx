@@ -1,7 +1,7 @@
 function Contact() {
     return (
         <>
-            <form action="">
+            <form action="" className="col-md-6 col-sm-12">
                 <div className="row">
                     <div className="col-md-6 col-sm-12">
                         <div className="mb-3">

@@ -1,6 +1,5 @@
 import './App.css';
 import Body from './body/body';
-import Footer from './footer/footer';
 import NavBar from './nav/NavBar';
 
 function App() {
@@ -9,7 +8,6 @@ function App() {
     <>
     <NavBar/>
     <Body/>
-    <Footer/>
     </>
   )
 }
